@@ -1,0 +1,148 @@
+2021-05-17 22:00:15,027 INFO    MainThread:685866 [internal.py:wandb_internal():91] W&B internal server running at pid: 685866, started at: 2021-05-17 22:00:15.027389
+2021-05-17 22:00:15,028 DEBUG   HandlerThread:685866 [handler.py:handle_request():121] handle_request: check_version
+2021-05-17 22:00:15,029 INFO    WriterThread:685866 [datastore.py:open_for_write():77] open: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210517_220002-3bobkbas/run-3bobkbas.wandb
+2021-05-17 22:00:15,031 DEBUG   SenderThread:685866 [sender.py:send():176] send: header
+2021-05-17 22:00:15,031 DEBUG   SenderThread:685866 [sender.py:send_request():186] send_request: check_version
+2021-05-17 22:00:15,457 DEBUG   SenderThread:685866 [sender.py:send():176] send: run
+2021-05-17 22:00:15,459 DEBUG   SenderThread:685866 [git.py:repo():33] git repository is invalid
+2021-05-17 22:00:15,981 DEBUG   HandlerThread:685866 [handler.py:handle_request():121] handle_request: run_start
+2021-05-17 22:00:15,983 INFO    SenderThread:685866 [dir_watcher.py:__init__():168] watching files in: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210517_220002-3bobkbas/files
+2021-05-17 22:00:15,983 INFO    SenderThread:685866 [sender.py:_start_run_threads():699] run started: 3bobkbas with start time 1621269014
+2021-05-17 22:00:15,983 DEBUG   SenderThread:685866 [sender.py:send():176] send: summary
+2021-05-17 22:00:15,985 INFO    SenderThread:685866 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-17 22:00:17,013 INFO    Thread-8  :685866 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210517_220002-3bobkbas/files/wandb-summary.json
+2021-05-17 22:00:17,111 DEBUG   HandlerThread:685866 [meta.py:__init__():39] meta init
+2021-05-17 22:00:17,111 DEBUG   HandlerThread:685866 [meta.py:__init__():53] meta init done
+2021-05-17 22:00:17,111 DEBUG   HandlerThread:685866 [meta.py:probe():210] probe
+2021-05-17 22:00:17,117 DEBUG   HandlerThread:685866 [git.py:repo():33] git repository is invalid
+2021-05-17 22:00:17,117 DEBUG   HandlerThread:685866 [meta.py:_save_code():89] save code
+2021-05-17 22:00:17,117 WARNING HandlerThread:685866 [meta.py:_save_code():91] unable to save code -- program entry not found
+2021-05-17 22:00:17,117 DEBUG   HandlerThread:685866 [meta.py:_save_pip():57] save pip
+2021-05-17 22:00:17,118 DEBUG   HandlerThread:685866 [meta.py:_save_pip():71] save pip done
+2021-05-17 22:00:17,118 DEBUG   HandlerThread:685866 [meta.py:_save_conda():78] save conda
+2021-05-17 22:00:18,010 INFO    Thread-8  :685866 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210517_220002-3bobkbas/files/conda-environment.yaml
+2021-05-17 22:00:18,011 INFO    Thread-8  :685866 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210517_220002-3bobkbas/files/requirements.txt
+2021-05-17 22:00:21,011 INFO    Thread-8  :685866 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210517_220002-3bobkbas/files/output.log
+2021-05-17 22:00:21,626 DEBUG   HandlerThread:685866 [meta.py:_save_conda():86] save conda done
+2021-05-17 22:00:21,626 DEBUG   HandlerThread:685866 [meta.py:probe():252] probe done
+2021-05-17 22:00:21,629 DEBUG   HandlerThread:685866 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-17 22:00:21,629 DEBUG   SenderThread:685866 [sender.py:send_request():186] send_request: stop_status
+2021-05-17 22:00:22,012 INFO    Thread-8  :685866 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210517_220002-3bobkbas/files/conda-environment.yaml
+2021-05-17 22:00:22,012 INFO    Thread-8  :685866 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210517_220002-3bobkbas/files/wandb-metadata.json
+2021-05-17 22:00:22,069 DEBUG   SenderThread:685866 [sender.py:send():176] send: files
+2021-05-17 22:00:22,070 INFO    SenderThread:685866 [sender.py:_save_file():821] saving file wandb-metadata.json with policy now
+2021-05-17 22:00:23,221 INFO    Thread-11 :685866 [upload_job.py:push():133] Uploaded file /tmp/tmpuanl12c8wandb/262b26xf-wandb-metadata.json
+2021-05-17 22:00:37,070 DEBUG   HandlerThread:685866 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-17 22:00:37,071 DEBUG   SenderThread:685866 [sender.py:send_request():186] send_request: stop_status
+2021-05-17 22:00:45,358 DEBUG   SenderThread:685866 [sender.py:send():176] send: stats
+2021-05-17 22:00:48,253 DEBUG   HandlerThread:685866 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-17 22:00:48,253 DEBUG   SenderThread:685866 [sender.py:send():176] send: telemetry
+2021-05-17 22:00:48,254 DEBUG   SenderThread:685866 [sender.py:send():176] send: exit
+2021-05-17 22:00:48,254 INFO    SenderThread:685866 [sender.py:send_exit():281] handling exit code: 0
+2021-05-17 22:00:48,254 INFO    SenderThread:685866 [sender.py:send_exit():289] send defer
+2021-05-17 22:00:48,254 DEBUG   SenderThread:685866 [sender.py:send_request():186] send_request: poll_exit
+2021-05-17 22:00:48,254 DEBUG   HandlerThread:685866 [handler.py:handle_request():121] handle_request: defer
+2021-05-17 22:00:48,255 INFO    HandlerThread:685866 [handler.py:handle_request_defer():138] handle defer: 0
+2021-05-17 22:00:48,255 DEBUG   SenderThread:685866 [sender.py:send_request():186] send_request: defer
+2021-05-17 22:00:48,255 INFO    SenderThread:685866 [sender.py:send_request_defer():298] handle sender defer: 0
+2021-05-17 22:00:48,255 INFO    SenderThread:685866 [sender.py:send_request_defer():336] send defer: 1
+2021-05-17 22:00:48,255 DEBUG   HandlerThread:685866 [handler.py:handle_request():121] handle_request: defer
+2021-05-17 22:00:48,255 INFO    HandlerThread:685866 [handler.py:handle_request_defer():138] handle defer: 1
+2021-05-17 22:00:48,289 DEBUG   SenderThread:685866 [sender.py:send_request():186] send_request: defer
+2021-05-17 22:00:48,289 INFO    SenderThread:685866 [sender.py:send_request_defer():298] handle sender defer: 1
+2021-05-17 22:00:48,289 INFO    SenderThread:685866 [sender.py:send_request_defer():336] send defer: 2
+2021-05-17 22:00:48,289 DEBUG   SenderThread:685866 [sender.py:send():176] send: stats
+2021-05-17 22:00:48,290 DEBUG   HandlerThread:685866 [handler.py:handle_request():121] handle_request: defer
+2021-05-17 22:00:48,290 INFO    HandlerThread:685866 [handler.py:handle_request_defer():138] handle defer: 2
+2021-05-17 22:00:48,290 DEBUG   SenderThread:685866 [sender.py:send_request():186] send_request: defer
+2021-05-17 22:00:48,290 INFO    SenderThread:685866 [sender.py:send_request_defer():298] handle sender defer: 2
+2021-05-17 22:00:48,290 INFO    SenderThread:685866 [sender.py:send_request_defer():336] send defer: 3
+2021-05-17 22:00:48,290 DEBUG   HandlerThread:685866 [handler.py:handle_request():121] handle_request: defer
+2021-05-17 22:00:48,290 INFO    HandlerThread:685866 [handler.py:handle_request_defer():138] handle defer: 3
+2021-05-17 22:00:48,291 DEBUG   SenderThread:685866 [sender.py:send():176] send: summary
+2021-05-17 22:00:48,291 INFO    SenderThread:685866 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-17 22:00:48,291 DEBUG   SenderThread:685866 [sender.py:send_request():186] send_request: defer
+2021-05-17 22:00:48,291 INFO    SenderThread:685866 [sender.py:send_request_defer():298] handle sender defer: 3
+2021-05-17 22:00:48,291 INFO    SenderThread:685866 [sender.py:send_request_defer():336] send defer: 4
+2021-05-17 22:00:48,291 DEBUG   HandlerThread:685866 [handler.py:handle_request():121] handle_request: defer
+2021-05-17 22:00:48,291 INFO    HandlerThread:685866 [handler.py:handle_request_defer():138] handle defer: 4
+2021-05-17 22:00:48,291 DEBUG   SenderThread:685866 [sender.py:send_request():186] send_request: defer
+2021-05-17 22:00:48,291 INFO    SenderThread:685866 [sender.py:send_request_defer():298] handle sender defer: 4
+2021-05-17 22:00:48,358 DEBUG   HandlerThread:685866 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-17 22:00:48,809 INFO    SenderThread:685866 [sender.py:send_request_defer():336] send defer: 5
+2021-05-17 22:00:48,810 DEBUG   SenderThread:685866 [sender.py:send_request():186] send_request: poll_exit
+2021-05-17 22:00:48,810 DEBUG   HandlerThread:685866 [handler.py:handle_request():121] handle_request: defer
+2021-05-17 22:00:48,810 INFO    HandlerThread:685866 [handler.py:handle_request_defer():138] handle defer: 5
+2021-05-17 22:00:48,810 DEBUG   SenderThread:685866 [sender.py:send_request():186] send_request: defer
+2021-05-17 22:00:48,811 INFO    SenderThread:685866 [sender.py:send_request_defer():298] handle sender defer: 5
+2021-05-17 22:00:48,811 INFO    SenderThread:685866 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-05-17 22:00:48,911 DEBUG   HandlerThread:685866 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-17 22:00:49,019 INFO    SenderThread:685866 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210517_220002-3bobkbas/files/wandb-summary.json
+2021-05-17 22:00:49,019 INFO    SenderThread:685866 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210517_220002-3bobkbas/files/config.yaml
+2021-05-17 22:00:49,019 INFO    SenderThread:685866 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210517_220002-3bobkbas/files/output.log
+2021-05-17 22:00:49,019 INFO    SenderThread:685866 [dir_watcher.py:finish():312] scan: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210517_220002-3bobkbas/files
+2021-05-17 22:00:49,020 INFO    SenderThread:685866 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210517_220002-3bobkbas/files/conda-environment.yaml conda-environment.yaml
+2021-05-17 22:00:49,020 INFO    SenderThread:685866 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210517_220002-3bobkbas/files/requirements.txt requirements.txt
+2021-05-17 22:00:49,024 INFO    SenderThread:685866 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210517_220002-3bobkbas/files/config.yaml config.yaml
+2021-05-17 22:00:49,028 INFO    SenderThread:685866 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210517_220002-3bobkbas/files/wandb-metadata.json wandb-metadata.json
+2021-05-17 22:00:49,029 INFO    SenderThread:685866 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210517_220002-3bobkbas/files/wandb-summary.json wandb-summary.json
+2021-05-17 22:00:49,032 INFO    SenderThread:685866 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210517_220002-3bobkbas/files/output.log output.log
+2021-05-17 22:00:49,032 INFO    SenderThread:685866 [sender.py:send_request_defer():336] send defer: 6
+2021-05-17 22:00:49,033 DEBUG   SenderThread:685866 [sender.py:send_request():186] send_request: poll_exit
+2021-05-17 22:00:49,035 DEBUG   HandlerThread:685866 [handler.py:handle_request():121] handle_request: defer
+2021-05-17 22:00:49,036 INFO    HandlerThread:685866 [handler.py:handle_request_defer():138] handle defer: 6
+2021-05-17 22:00:49,036 DEBUG   SenderThread:685866 [sender.py:send_request():186] send_request: defer
+2021-05-17 22:00:49,039 INFO    SenderThread:685866 [sender.py:send_request_defer():298] handle sender defer: 6
+2021-05-17 22:00:49,039 INFO    SenderThread:685866 [file_pusher.py:finish():176] shutting down file pusher
+2021-05-17 22:00:49,039 INFO    SenderThread:685866 [sender.py:send_request_defer():336] send defer: 7
+2021-05-17 22:00:49,039 DEBUG   HandlerThread:685866 [handler.py:handle_request():121] handle_request: defer
+2021-05-17 22:00:49,040 INFO    HandlerThread:685866 [handler.py:handle_request_defer():138] handle defer: 7
+2021-05-17 22:00:49,040 DEBUG   SenderThread:685866 [sender.py:send_request():186] send_request: defer
+2021-05-17 22:00:49,040 INFO    SenderThread:685866 [sender.py:send_request_defer():298] handle sender defer: 7
+2021-05-17 22:00:49,138 DEBUG   HandlerThread:685866 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-17 22:00:49,639 INFO    SenderThread:685866 [sender.py:send_request_defer():336] send defer: 8
+2021-05-17 22:00:49,639 DEBUG   SenderThread:685866 [sender.py:send_request():186] send_request: poll_exit
+2021-05-17 22:00:49,639 DEBUG   HandlerThread:685866 [handler.py:handle_request():121] handle_request: defer
+2021-05-17 22:00:49,639 INFO    HandlerThread:685866 [handler.py:handle_request_defer():138] handle defer: 8
+2021-05-17 22:00:49,640 DEBUG   SenderThread:685866 [sender.py:send_request():186] send_request: defer
+2021-05-17 22:00:49,640 INFO    SenderThread:685866 [sender.py:send_request_defer():298] handle sender defer: 8
+2021-05-17 22:00:49,640 INFO    SenderThread:685866 [sender.py:send_request_defer():336] send defer: 9
+2021-05-17 22:00:49,640 DEBUG   SenderThread:685866 [sender.py:send():176] send: final
+2021-05-17 22:00:49,640 DEBUG   HandlerThread:685866 [handler.py:handle_request():121] handle_request: defer
+2021-05-17 22:00:49,640 DEBUG   SenderThread:685866 [sender.py:send():176] send: footer
+2021-05-17 22:00:49,640 INFO    HandlerThread:685866 [handler.py:handle_request_defer():138] handle defer: 9
+2021-05-17 22:00:49,640 DEBUG   SenderThread:685866 [sender.py:send_request():186] send_request: defer
+2021-05-17 22:00:49,640 INFO    SenderThread:685866 [sender.py:send_request_defer():298] handle sender defer: 9
+2021-05-17 22:00:49,741 DEBUG   HandlerThread:685866 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-17 22:00:49,742 DEBUG   SenderThread:685866 [sender.py:send_request():186] send_request: poll_exit
+2021-05-17 22:00:49,844 DEBUG   HandlerThread:685866 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-17 22:00:49,844 DEBUG   SenderThread:685866 [sender.py:send_request():186] send_request: poll_exit
+2021-05-17 22:00:49,946 DEBUG   HandlerThread:685866 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-17 22:00:49,946 DEBUG   SenderThread:685866 [sender.py:send_request():186] send_request: poll_exit
+2021-05-17 22:00:50,048 DEBUG   HandlerThread:685866 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-17 22:00:50,048 DEBUG   SenderThread:685866 [sender.py:send_request():186] send_request: poll_exit
+2021-05-17 22:00:50,149 DEBUG   HandlerThread:685866 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-17 22:00:50,150 DEBUG   SenderThread:685866 [sender.py:send_request():186] send_request: poll_exit
+2021-05-17 22:00:50,163 INFO    Thread-15 :685866 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210517_220002-3bobkbas/files/wandb-summary.json
+2021-05-17 22:00:50,165 INFO    Thread-14 :685866 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210517_220002-3bobkbas/files/config.yaml
+2021-05-17 22:00:50,169 INFO    Thread-16 :685866 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210517_220002-3bobkbas/files/output.log
+2021-05-17 22:00:50,204 INFO    Thread-13 :685866 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210517_220002-3bobkbas/files/requirements.txt
+2021-05-17 22:00:50,251 DEBUG   HandlerThread:685866 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-17 22:00:50,251 DEBUG   SenderThread:685866 [sender.py:send_request():186] send_request: poll_exit
+2021-05-17 22:00:50,298 INFO    Thread-12 :685866 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210517_220002-3bobkbas/files/conda-environment.yaml
+2021-05-17 22:00:50,353 DEBUG   HandlerThread:685866 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-17 22:00:50,353 DEBUG   SenderThread:685866 [sender.py:send_request():186] send_request: poll_exit
+2021-05-17 22:00:50,454 DEBUG   HandlerThread:685866 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-17 22:00:50,454 DEBUG   SenderThread:685866 [sender.py:send_request():186] send_request: poll_exit
+2021-05-17 22:00:50,556 DEBUG   HandlerThread:685866 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-17 22:00:50,556 DEBUG   SenderThread:685866 [sender.py:send_request():186] send_request: poll_exit
+2021-05-17 22:00:50,556 INFO    SenderThread:685866 [file_pusher.py:join():181] waiting for file pusher
+2021-05-17 22:00:50,558 DEBUG   HandlerThread:685866 [handler.py:handle_request():121] handle_request: get_summary
+2021-05-17 22:00:50,558 DEBUG   HandlerThread:685866 [handler.py:handle_request():121] handle_request: sampled_history
+2021-05-17 22:00:50,558 DEBUG   HandlerThread:685866 [handler.py:handle_request():121] handle_request: shutdown
+2021-05-17 22:00:50,559 INFO    HandlerThread:685866 [handler.py:finish():632] shutting down handler
+2021-05-17 22:00:50,640 INFO    WriterThread:685866 [datastore.py:close():258] close: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210517_220002-3bobkbas/run-3bobkbas.wandb
+2021-05-17 22:00:51,557 INFO    SenderThread:685866 [sender.py:finish():925] shutting down sender
+2021-05-17 22:00:51,557 INFO    SenderThread:685866 [file_pusher.py:finish():176] shutting down file pusher
+2021-05-17 22:00:51,558 INFO    SenderThread:685866 [file_pusher.py:join():181] waiting for file pusher
+2021-05-17 22:00:51,558 INFO    MainThread:685866 [internal.py:handle_exit():78] Internal process exited

@@ -1,0 +1,42 @@
+2021-05-18 12:24:53,767 INFO    MainThread:241372 [internal.py:wandb_internal():91] W&B internal server running at pid: 241372, started at: 2021-05-18 12:24:53.767565
+2021-05-18 12:24:53,769 DEBUG   HandlerThread:241372 [handler.py:handle_request():121] handle_request: check_version
+2021-05-18 12:24:53,769 INFO    WriterThread:241372 [datastore.py:open_for_write():77] open: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_122448-2ezv6g2d/run-2ezv6g2d.wandb
+2021-05-18 12:24:53,771 DEBUG   SenderThread:241372 [sender.py:send():176] send: header
+2021-05-18 12:24:53,771 DEBUG   SenderThread:241372 [sender.py:send_request():186] send_request: check_version
+2021-05-18 12:24:54,501 DEBUG   SenderThread:241372 [sender.py:send():176] send: run
+2021-05-18 12:24:54,503 DEBUG   SenderThread:241372 [git.py:repo():33] git repository is invalid
+2021-05-18 12:24:55,249 INFO    SenderThread:241372 [dir_watcher.py:__init__():168] watching files in: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_122448-2ezv6g2d/files
+2021-05-18 12:24:55,249 DEBUG   HandlerThread:241372 [handler.py:handle_request():121] handle_request: run_start
+2021-05-18 12:24:55,249 INFO    SenderThread:241372 [sender.py:_start_run_threads():699] run started: 2ezv6g2d with start time 1621320893
+2021-05-18 12:24:55,250 DEBUG   SenderThread:241372 [sender.py:send():176] send: summary
+2021-05-18 12:24:55,250 INFO    SenderThread:241372 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 12:24:56,252 INFO    Thread-8  :241372 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_122448-2ezv6g2d/files/wandb-summary.json
+2021-05-18 12:24:56,270 DEBUG   HandlerThread:241372 [meta.py:__init__():39] meta init
+2021-05-18 12:24:56,270 DEBUG   HandlerThread:241372 [meta.py:__init__():53] meta init done
+2021-05-18 12:24:56,270 DEBUG   HandlerThread:241372 [meta.py:probe():210] probe
+2021-05-18 12:24:56,276 DEBUG   HandlerThread:241372 [git.py:repo():33] git repository is invalid
+2021-05-18 12:24:56,276 DEBUG   HandlerThread:241372 [meta.py:_save_code():89] save code
+2021-05-18 12:24:56,276 WARNING HandlerThread:241372 [meta.py:_save_code():91] unable to save code -- program entry not found
+2021-05-18 12:24:56,276 DEBUG   HandlerThread:241372 [meta.py:_save_pip():57] save pip
+2021-05-18 12:24:56,277 DEBUG   HandlerThread:241372 [meta.py:_save_pip():71] save pip done
+2021-05-18 12:24:56,277 DEBUG   HandlerThread:241372 [meta.py:_save_conda():78] save conda
+2021-05-18 12:24:57,253 INFO    Thread-8  :241372 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_122448-2ezv6g2d/files/conda-environment.yaml
+2021-05-18 12:24:57,253 INFO    Thread-8  :241372 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_122448-2ezv6g2d/files/requirements.txt
+2021-05-18 12:25:00,602 DEBUG   HandlerThread:241372 [meta.py:_save_conda():86] save conda done
+2021-05-18 12:25:00,602 DEBUG   HandlerThread:241372 [meta.py:probe():252] probe done
+2021-05-18 12:25:00,605 DEBUG   HandlerThread:241372 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-18 12:25:00,605 DEBUG   SenderThread:241372 [sender.py:send_request():186] send_request: stop_status
+2021-05-18 12:25:01,254 INFO    Thread-8  :241372 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_122448-2ezv6g2d/files/conda-environment.yaml
+2021-05-18 12:25:01,255 INFO    Thread-8  :241372 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_122448-2ezv6g2d/files/output.log
+2021-05-18 12:25:01,255 INFO    Thread-8  :241372 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_122448-2ezv6g2d/files/wandb-metadata.json
+2021-05-18 12:25:01,395 DEBUG   SenderThread:241372 [sender.py:send():176] send: files
+2021-05-18 12:25:01,395 INFO    SenderThread:241372 [sender.py:_save_file():821] saving file wandb-metadata.json with policy now
+2021-05-18 12:25:02,126 DEBUG   SenderThread:241372 [sender.py:send():176] send: history
+2021-05-18 12:25:02,126 DEBUG   SenderThread:241372 [sender.py:send():176] send: summary
+2021-05-18 12:25:02,127 INFO    SenderThread:241372 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 12:25:02,255 INFO    Thread-8  :241372 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_122448-2ezv6g2d/files/wandb-summary.json
+2021-05-18 12:25:02,696 INFO    Thread-11 :241372 [upload_job.py:push():133] Uploaded file /tmp/tmp2q69fgy1wandb/jilnn09z-wandb-metadata.json
+2021-05-18 12:25:03,863 DEBUG   SenderThread:241372 [sender.py:send():176] send: history
+2021-05-18 12:25:03,863 DEBUG   SenderThread:241372 [sender.py:send():176] send: summary
+2021-05-18 12:25:03,864 INFO    SenderThread:241372 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 12:25:04,256 INFO    Thread-8  :241372 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_122448-2ezv6g2d/files/wandb-summary.json

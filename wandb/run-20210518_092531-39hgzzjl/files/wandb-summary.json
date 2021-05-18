@@ -1,0 +1,1 @@
+{"loss": 0.04521816223859787, "accuracy": 2.6, "val_accuracy": 2.9000000000000004, "pred": 28, "real": 0, "_runtime": 273, "_timestamp": 1621310404, "_step": 176}

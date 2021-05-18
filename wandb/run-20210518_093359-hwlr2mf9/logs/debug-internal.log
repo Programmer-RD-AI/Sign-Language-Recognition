@@ -1,0 +1,1394 @@
+2021-05-18 09:33:59,786 INFO    MainThread:86609 [internal.py:wandb_internal():91] W&B internal server running at pid: 86609, started at: 2021-05-18 09:33:59.786714
+2021-05-18 09:33:59,788 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: check_version
+2021-05-18 09:33:59,788 INFO    WriterThread:86609 [datastore.py:open_for_write():77] open: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/run-hwlr2mf9.wandb
+2021-05-18 09:33:59,790 DEBUG   SenderThread:86609 [sender.py:send():176] send: header
+2021-05-18 09:33:59,790 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: check_version
+2021-05-18 09:34:00,264 DEBUG   SenderThread:86609 [sender.py:send():176] send: run
+2021-05-18 09:34:00,267 DEBUG   SenderThread:86609 [git.py:repo():33] git repository is invalid
+2021-05-18 09:34:01,079 INFO    SenderThread:86609 [dir_watcher.py:__init__():168] watching files in: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files
+2021-05-18 09:34:01,079 INFO    SenderThread:86609 [sender.py:_start_run_threads():699] run started: hwlr2mf9 with start time 1621310639
+2021-05-18 09:34:01,079 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:01,079 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:01,080 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: run_start
+2021-05-18 09:34:02,044 DEBUG   HandlerThread:86609 [meta.py:__init__():39] meta init
+2021-05-18 09:34:02,044 DEBUG   HandlerThread:86609 [meta.py:__init__():53] meta init done
+2021-05-18 09:34:02,044 DEBUG   HandlerThread:86609 [meta.py:probe():210] probe
+2021-05-18 09:34:02,050 DEBUG   HandlerThread:86609 [git.py:repo():33] git repository is invalid
+2021-05-18 09:34:02,050 DEBUG   HandlerThread:86609 [meta.py:_save_pip():57] save pip
+2021-05-18 09:34:02,050 DEBUG   HandlerThread:86609 [meta.py:_save_pip():71] save pip done
+2021-05-18 09:34:02,050 DEBUG   HandlerThread:86609 [meta.py:_save_conda():78] save conda
+2021-05-18 09:34:02,082 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/conda-environment.yaml
+2021-05-18 09:34:02,083 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/requirements.txt
+2021-05-18 09:34:02,083 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:06,316 DEBUG   HandlerThread:86609 [meta.py:_save_conda():86] save conda done
+2021-05-18 09:34:06,316 DEBUG   HandlerThread:86609 [meta.py:probe():252] probe done
+2021-05-18 09:34:06,318 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-18 09:34:06,318 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: stop_status
+2021-05-18 09:34:07,084 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/conda-environment.yaml
+2021-05-18 09:34:07,084 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/output.log
+2021-05-18 09:34:07,084 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-metadata.json
+2021-05-18 09:34:10,395 DEBUG   SenderThread:86609 [sender.py:send():176] send: files
+2021-05-18 09:34:10,396 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-metadata.json with policy now
+2021-05-18 09:34:10,396 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:10,396 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:10,399 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:10,399 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:10,399 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:10,400 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:10,565 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:10,565 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:10,565 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:11,085 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:12,045 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:12,045 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:12,046 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:12,049 INFO    Thread-11 :86609 [upload_job.py:push():133] Uploaded file /tmp/tmpgap0ug40wandb/z6by47wj-wandb-metadata.json
+2021-05-18 09:34:12,086 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:13,527 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:13,527 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:13,529 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:14,087 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:15,008 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:15,008 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:15,009 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:15,087 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:16,489 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:16,489 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:16,491 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:17,088 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:17,983 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:17,983 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:17,984 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:18,088 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:19,490 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:19,491 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:19,492 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:20,089 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:20,997 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:20,997 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:20,997 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:21,089 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:22,485 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:22,485 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:22,486 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:23,090 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:23,968 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:23,968 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:23,969 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:24,090 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:25,397 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-18 09:34:25,397 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: stop_status
+2021-05-18 09:34:26,205 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:26,205 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:26,206 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:26,941 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:26,942 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:26,942 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:27,092 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:28,434 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:28,434 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:28,436 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:29,092 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:29,918 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:29,918 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:29,918 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:30,093 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:30,279 DEBUG   SenderThread:86609 [sender.py:send():176] send: stats
+2021-05-18 09:34:31,403 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:31,403 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:31,406 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:32,094 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:32,887 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:32,887 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:32,887 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:33,094 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:34,373 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:34,374 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:34,375 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:35,095 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:35,858 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:35,858 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:35,858 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:36,095 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:37,341 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:37,342 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:37,343 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:38,096 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:38,823 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:38,823 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:38,824 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:39,097 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:40,308 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:40,309 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:40,311 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:41,097 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:41,206 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-18 09:34:41,207 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: stop_status
+2021-05-18 09:34:42,974 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:42,975 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:42,976 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:43,098 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:43,283 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:43,283 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:43,284 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:44,099 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:44,771 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:44,771 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:44,771 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:45,099 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:46,256 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:46,256 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:46,259 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:47,100 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:47,742 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:47,742 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:47,743 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:48,100 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:49,237 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:49,238 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:49,240 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:50,101 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:50,736 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:50,736 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:50,737 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:51,102 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:52,237 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:52,238 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:52,240 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:53,102 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:53,739 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:53,740 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:53,740 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:54,103 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:55,228 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:55,229 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:55,231 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:56,104 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:56,717 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:56,717 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:56,718 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:57,104 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:57,976 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-18 09:34:57,976 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: stop_status
+2021-05-18 09:34:58,653 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:58,653 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:58,655 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:34:59,105 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:34:59,695 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:34:59,695 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:34:59,695 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:00,105 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:00,488 DEBUG   SenderThread:86609 [sender.py:send():176] send: stats
+2021-05-18 09:35:01,181 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:01,181 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:01,181 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:02,106 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:02,663 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:02,664 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:02,664 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:03,106 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:04,148 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:04,148 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:04,148 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:05,107 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:05,631 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:05,632 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:05,632 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:06,108 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:07,121 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:07,121 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:07,122 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:08,108 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:08,603 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:08,603 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:08,603 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:09,109 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:10,087 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:10,087 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:10,089 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:10,110 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:11,570 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:11,570 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:11,571 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:12,110 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:13,057 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:13,057 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:13,057 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:13,110 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:13,654 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-18 09:35:13,654 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: stop_status
+2021-05-18 09:35:14,541 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:14,542 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:14,542 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:15,111 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:16,025 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:16,026 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:16,026 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:16,111 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:17,508 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:17,508 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:17,508 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:18,112 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:18,991 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:18,991 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:18,992 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:19,112 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:20,475 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:20,475 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:20,477 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:21,113 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:21,957 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:21,958 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:21,958 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:22,114 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:23,442 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:23,442 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:23,443 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:24,114 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:24,933 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:24,933 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:24,934 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:25,115 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:26,428 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:26,428 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:26,429 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:27,115 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:27,924 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:27,925 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:27,925 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:28,116 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:29,356 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-18 09:35:29,356 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: stop_status
+2021-05-18 09:35:30,078 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:30,079 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:30,079 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:30,117 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:30,696 DEBUG   SenderThread:86609 [sender.py:send():176] send: stats
+2021-05-18 09:35:30,901 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:30,901 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:30,901 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:31,117 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:32,386 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:32,386 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:32,386 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:33,118 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:33,871 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:33,872 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:33,872 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:34,118 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:35,397 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:35,397 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:35,398 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:36,119 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:36,895 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:36,896 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:36,896 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:37,119 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:38,391 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:38,392 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:38,392 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:39,120 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:39,887 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:39,887 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:39,888 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:40,121 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:41,389 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:41,389 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:41,391 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:42,121 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:42,889 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:42,889 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:42,890 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:43,122 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:44,426 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:44,426 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:44,426 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:45,080 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-18 09:35:45,080 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: stop_status
+2021-05-18 09:35:45,122 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:45,932 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:45,932 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:45,933 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:46,123 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:47,431 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:47,432 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:47,432 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:48,123 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:48,929 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:48,930 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:48,930 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:49,124 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:50,420 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:50,420 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:50,421 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:51,124 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:51,904 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:51,905 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:51,907 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:52,125 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:53,390 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:53,390 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:53,391 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:54,126 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:54,877 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:54,878 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:54,878 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:55,126 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:56,372 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:56,372 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:56,372 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:57,127 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:57,872 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:57,872 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:57,872 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:35:58,127 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:35:59,375 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:35:59,376 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:35:59,376 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:00,128 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:00,773 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-18 09:36:00,773 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: stop_status
+2021-05-18 09:36:01,542 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:01,542 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:01,542 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:01,542 DEBUG   SenderThread:86609 [sender.py:send():176] send: stats
+2021-05-18 09:36:02,129 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:02,354 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:02,355 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:02,357 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:03,129 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:03,841 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:03,842 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:03,842 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:04,129 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:05,333 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:05,333 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:05,334 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:06,130 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:06,822 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:06,822 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:06,823 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:07,130 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:08,313 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:08,313 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:08,314 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:09,131 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:09,803 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:09,803 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:09,803 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:10,131 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:11,290 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:11,291 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:11,291 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:12,132 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:12,778 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:12,778 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:12,780 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:13,133 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:14,265 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:14,265 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:14,266 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:15,133 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:15,752 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:15,753 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:15,753 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:16,133 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:16,543 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-18 09:36:16,543 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: stop_status
+2021-05-18 09:36:17,416 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:17,417 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:17,417 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:18,134 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:18,732 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:18,732 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:18,732 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:19,134 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:20,220 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:20,220 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:20,220 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:21,135 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:21,708 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:21,708 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:21,709 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:22,136 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:23,196 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:23,196 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:23,198 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:24,136 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:24,684 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:24,684 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:24,684 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:25,137 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:26,167 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:26,168 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:26,168 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:27,137 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:27,649 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:27,649 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:27,650 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:28,138 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:29,137 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:29,137 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:29,138 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:29,138 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:30,624 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:30,625 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:30,625 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:31,116 DEBUG   SenderThread:86609 [sender.py:send():176] send: stats
+2021-05-18 09:36:31,139 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:32,110 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:32,111 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:32,111 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:32,139 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:32,417 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-18 09:36:32,418 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: stop_status
+2021-05-18 09:36:33,595 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:33,595 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:33,597 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:34,140 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:35,078 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:35,078 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:35,078 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:35,140 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:36,560 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:36,561 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:36,561 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:37,141 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:38,042 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:38,042 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:38,043 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:38,141 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:39,527 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:39,527 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:39,527 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:40,142 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:41,009 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:41,009 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:41,010 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:41,142 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:42,494 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:42,494 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:42,495 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:43,143 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:43,978 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:43,978 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:43,980 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:44,143 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:45,462 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:45,462 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:45,463 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:46,144 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:46,952 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:46,952 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:46,952 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:47,144 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:48,088 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-18 09:36:48,088 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: stop_status
+2021-05-18 09:36:48,799 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:48,800 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:48,800 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:49,145 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:49,922 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:49,922 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:49,923 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:50,146 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:51,406 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:51,406 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:51,407 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:52,146 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:52,888 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:52,889 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:52,889 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:53,147 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:54,372 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:54,372 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:54,375 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:55,147 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:55,853 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:55,854 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:55,854 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:56,148 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:57,337 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:57,337 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:57,338 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:58,149 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:36:58,824 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:36:58,824 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:36:58,825 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:36:59,149 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:00,314 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:00,315 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:00,315 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:01,150 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:01,327 DEBUG   SenderThread:86609 [sender.py:send():176] send: stats
+2021-05-18 09:37:01,800 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:01,800 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:01,801 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:02,150 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:03,308 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:03,308 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:03,309 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:03,801 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-18 09:37:03,801 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: stop_status
+2021-05-18 09:37:04,151 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:04,794 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:04,794 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:04,796 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:05,151 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:06,280 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:06,280 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:06,280 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:07,152 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:07,765 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:07,765 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:07,766 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:08,153 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:09,248 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:09,248 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:09,248 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:10,153 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:10,733 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:10,733 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:10,734 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:11,154 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:12,222 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:12,222 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:12,222 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:13,154 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:13,707 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:13,708 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:13,708 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:14,155 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:15,195 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:15,195 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:15,197 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:16,155 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:16,677 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:16,678 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:16,678 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:17,156 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:18,160 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:18,161 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:18,161 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:19,156 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:19,515 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-18 09:37:19,516 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: stop_status
+2021-05-18 09:37:20,256 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:20,256 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:20,256 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:21,130 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:21,130 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:21,130 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:21,157 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:22,614 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:22,614 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:22,614 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:23,158 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:24,098 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:24,098 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:24,099 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:24,158 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:25,581 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:25,582 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:25,584 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:26,159 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:27,067 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:27,067 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:27,068 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:27,159 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:28,552 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:28,552 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:28,552 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:29,160 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:30,040 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:30,040 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:30,040 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:30,161 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:31,523 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:31,523 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:31,523 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:31,545 DEBUG   SenderThread:86609 [sender.py:send():176] send: stats
+2021-05-18 09:37:32,161 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:33,009 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:33,009 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:33,010 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:33,162 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:34,491 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:34,491 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:34,492 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:35,163 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:35,257 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-18 09:37:35,257 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: stop_status
+2021-05-18 09:37:35,977 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:35,978 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:35,980 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:36,163 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:37,459 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:37,460 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:37,460 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:38,164 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:38,943 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:38,943 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:38,943 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:39,164 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:40,427 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:40,427 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:40,428 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:41,165 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:41,912 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:41,913 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:41,913 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:42,165 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:43,397 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:43,397 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:43,398 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:44,166 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:44,883 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:44,883 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:44,883 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:45,167 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:46,366 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:46,367 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:46,368 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:47,167 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:47,851 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:47,852 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:47,852 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:48,168 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:49,334 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:49,335 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:49,335 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:50,168 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:50,825 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:50,825 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:50,825 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:50,940 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-18 09:37:50,940 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: stop_status
+2021-05-18 09:37:51,169 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:52,311 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:52,312 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:52,312 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:53,170 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:53,797 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:53,798 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:53,798 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:54,170 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:55,288 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:55,289 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:55,289 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:56,171 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:56,784 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:56,785 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:56,787 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:57,171 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:58,280 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:58,280 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:58,281 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:37:59,172 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:37:59,777 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:37:59,777 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:37:59,777 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:00,172 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:01,270 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:01,270 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:01,270 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:01,767 DEBUG   SenderThread:86609 [sender.py:send():176] send: stats
+2021-05-18 09:38:02,173 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:02,765 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:02,765 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:02,765 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:03,173 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:04,262 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:04,262 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:04,262 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:05,174 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:05,756 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:05,757 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:05,757 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:06,174 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:06,704 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-18 09:38:06,704 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: stop_status
+2021-05-18 09:38:07,395 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:07,396 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:07,398 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:08,175 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:08,734 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:08,734 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:08,735 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:09,176 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:10,215 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:10,216 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:10,216 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:11,176 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:11,699 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:11,699 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:11,699 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:12,177 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:13,182 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:13,183 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:13,183 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:14,177 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:14,667 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:14,668 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:14,668 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:15,178 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:16,148 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:16,149 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:16,149 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:16,178 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:17,634 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:17,634 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:17,636 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:18,179 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:19,116 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:19,116 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:19,116 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:19,179 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:20,604 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:20,604 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:20,604 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:21,180 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:22,089 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:22,089 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:22,089 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:22,180 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:22,397 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-18 09:38:22,397 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: stop_status
+2021-05-18 09:38:23,581 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:23,581 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:23,581 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:24,181 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:25,066 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:25,067 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:25,067 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:25,181 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:26,552 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:26,552 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:26,552 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:27,182 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:28,036 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:28,037 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:28,039 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:28,182 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:29,525 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:29,525 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:29,526 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:30,183 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:31,035 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:31,035 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:31,036 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:31,184 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:31,973 DEBUG   SenderThread:86609 [sender.py:send():176] send: stats
+2021-05-18 09:38:32,521 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:32,521 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:32,522 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:33,184 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:34,007 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:34,008 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:34,008 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:34,185 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:35,492 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:35,493 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:35,493 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:36,185 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:36,977 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:36,978 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:36,978 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:37,186 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:38,094 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-18 09:38:38,094 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: stop_status
+2021-05-18 09:38:38,959 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:38,959 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:38,962 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:39,186 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:39,947 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:39,947 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:39,947 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:40,187 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:41,433 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:41,433 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:41,434 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:42,187 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:42,916 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:42,917 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:42,917 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:43,188 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:44,401 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:44,402 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:44,402 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:45,189 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:45,884 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:45,884 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:45,885 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:46,189 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:47,367 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:47,368 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:47,368 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:48,190 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:48,851 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:48,851 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:48,852 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:49,190 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:50,337 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:50,338 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:50,340 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:51,191 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:51,820 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:51,820 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:51,820 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:52,191 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:53,303 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:53,303 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:53,303 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:53,960 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-18 09:38:53,960 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: stop_status
+2021-05-18 09:38:54,192 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:54,790 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:54,790 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:54,791 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:55,193 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:56,275 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:56,275 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:56,276 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:57,193 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:57,760 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:57,760 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:57,760 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:38:58,194 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:38:59,248 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:38:59,249 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:38:59,249 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:00,194 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:00,740 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:00,740 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:00,740 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:01,195 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:02,191 DEBUG   SenderThread:86609 [sender.py:send():176] send: stats
+2021-05-18 09:39:02,230 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:02,230 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:02,231 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:03,195 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:03,719 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:03,719 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:03,720 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:04,196 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:05,209 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:05,209 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:05,209 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:06,197 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:06,698 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:06,698 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:06,699 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:07,197 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:08,182 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:08,182 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:08,183 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:08,197 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:09,666 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:09,666 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:09,666 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:09,684 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-18 09:39:09,684 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: stop_status
+2021-05-18 09:39:10,198 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:11,149 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:11,149 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:11,150 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:11,198 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:12,631 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:12,631 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:12,632 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:13,199 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:14,116 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:14,116 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:14,117 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:14,199 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:15,598 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:15,598 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:15,598 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:16,200 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:17,081 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:17,082 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:17,082 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:17,200 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:18,562 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:18,563 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:18,563 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:19,201 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:20,047 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:20,048 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:20,048 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:20,202 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:21,535 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:21,535 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:21,538 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:22,202 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:23,021 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:23,021 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:23,021 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:23,203 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:24,508 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:24,509 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:24,509 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:25,203 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:25,503 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-18 09:39:25,503 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: stop_status
+2021-05-18 09:39:26,321 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:26,322 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:26,322 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:27,204 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:27,473 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:27,474 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:27,474 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:28,204 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:28,958 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:28,958 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:28,959 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:29,205 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:30,441 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:30,442 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:30,442 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:31,206 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:31,923 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:31,924 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:31,924 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:32,206 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:32,415 DEBUG   SenderThread:86609 [sender.py:send():176] send: stats
+2021-05-18 09:39:33,404 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:33,404 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:33,405 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:34,207 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:34,888 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:34,888 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:34,888 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:35,207 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:36,380 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:36,380 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:36,381 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:37,208 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:37,864 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:37,864 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:37,864 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:38,208 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:39,348 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:39,349 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:39,349 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:40,209 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:40,835 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:40,836 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:40,836 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:41,209 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:41,323 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-18 09:39:41,323 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: stop_status
+2021-05-18 09:39:42,321 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:42,322 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:42,322 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:43,210 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:43,807 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:43,807 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:43,807 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:44,211 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:45,293 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:45,293 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:45,294 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:46,211 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:46,780 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:46,781 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:46,781 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:47,212 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:48,265 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:48,266 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:48,266 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:49,213 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:49,751 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:49,751 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:49,752 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:50,213 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:51,235 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:51,235 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:51,236 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:52,214 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:52,722 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:52,722 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:52,724 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:53,214 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:54,206 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:54,206 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:54,206 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:54,215 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:55,691 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:55,691 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:55,691 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:56,215 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:57,006 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-18 09:39:57,006 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: stop_status
+2021-05-18 09:39:57,687 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:57,687 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:57,687 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:58,216 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:39:58,700 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:39:58,701 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:39:58,701 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:39:59,217 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:00,197 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:00,197 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:00,198 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:00,217 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:01,691 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:01,691 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:01,691 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:02,218 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:02,629 DEBUG   SenderThread:86609 [sender.py:send():176] send: stats
+2021-05-18 09:40:03,187 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:03,187 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:03,187 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:03,218 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:04,688 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:04,688 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:04,688 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:05,219 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:06,175 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:06,176 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:06,176 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:06,219 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:07,663 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:07,664 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:07,664 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:08,220 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:09,152 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:09,152 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:09,152 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:09,220 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:10,637 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:10,637 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:10,637 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:11,221 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:12,122 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:12,122 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:12,123 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:12,222 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:12,688 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-18 09:40:12,688 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: stop_status
+2021-05-18 09:40:13,620 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:13,620 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:13,621 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:14,222 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:15,108 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:15,109 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:15,109 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:15,223 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:16,596 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:16,596 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:16,597 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:17,223 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:18,082 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:18,083 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:18,083 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:18,224 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:19,571 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:19,571 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:19,571 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:20,225 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:21,056 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:21,057 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:21,058 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:21,225 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:22,541 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:22,542 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:22,543 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:23,226 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:24,028 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:24,029 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:24,031 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:24,226 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:25,514 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:25,515 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:25,515 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:26,227 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:26,997 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:26,998 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:26,998 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:27,227 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:28,371 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-18 09:40:28,372 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: stop_status
+2021-05-18 09:40:29,081 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:29,081 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:29,082 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:29,228 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:29,973 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:29,974 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:29,974 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:30,228 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:31,457 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:31,458 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:31,458 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:32,229 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:32,844 DEBUG   SenderThread:86609 [sender.py:send():176] send: stats
+2021-05-18 09:40:32,940 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:32,941 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:32,941 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:33,230 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:34,422 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:34,423 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:34,423 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:35,230 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:35,905 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:35,905 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:35,905 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:36,231 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:37,391 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:37,391 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:37,392 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:38,231 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:38,877 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:38,878 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:38,878 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:39,232 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:40,363 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:40,363 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:40,364 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:41,232 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:41,846 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:41,847 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:41,847 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:42,233 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:43,331 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:43,331 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:43,332 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:44,082 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-18 09:40:44,082 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: stop_status
+2021-05-18 09:40:44,234 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:45,114 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:45,115 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:45,115 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:45,234 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:46,311 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:46,311 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:46,311 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:47,235 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:47,799 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:47,799 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:47,800 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:48,235 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:49,287 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:49,288 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:49,288 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:50,236 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:50,778 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:50,779 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:50,779 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:51,236 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:52,262 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:52,262 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:52,262 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:53,237 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:53,743 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:53,744 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:53,744 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:54,237 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:55,228 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:55,228 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:55,230 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:55,238 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:56,712 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:56,712 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:56,713 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:57,238 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:58,199 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:58,199 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:58,199 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:40:58,239 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:40:59,684 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:40:59,684 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:40:59,684 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:41:00,115 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-18 09:41:00,116 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: stop_status
+2021-05-18 09:41:00,240 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:41:01,817 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:41:01,818 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:41:01,818 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:41:02,240 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:41:02,653 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:41:02,654 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:41:02,654 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:41:03,060 DEBUG   SenderThread:86609 [sender.py:send():176] send: stats
+2021-05-18 09:41:03,241 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:41:04,137 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:41:04,138 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:41:04,138 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:41:04,241 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:41:05,619 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:41:05,619 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:41:05,620 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:41:06,242 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:41:07,102 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:41:07,102 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:41:07,102 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:41:07,242 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:41:08,584 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:41:08,584 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:41:08,584 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:41:09,243 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:41:10,067 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:41:10,067 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:41:10,068 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:41:10,244 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:41:11,550 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:41:11,550 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:41:11,550 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:41:12,244 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:41:13,034 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:41:13,035 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:41:13,035 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:41:13,245 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:41:14,517 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:41:14,518 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:41:14,518 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:41:15,246 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:41:16,001 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:41:16,001 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:41:16,001 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:41:16,246 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:41:16,818 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-18 09:41:16,819 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: stop_status
+2021-05-18 09:41:17,715 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:41:17,716 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:41:17,716 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:41:18,247 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:41:18,972 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:41:18,973 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:41:18,973 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:41:19,248 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:41:20,454 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:41:20,454 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:41:20,455 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:41:21,248 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:41:21,938 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:41:21,938 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:41:21,938 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:41:22,249 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:41:23,425 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:41:23,425 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:41:23,425 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:41:24,250 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:41:24,909 DEBUG   SenderThread:86609 [sender.py:send():176] send: history
+2021-05-18 09:41:24,910 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:41:24,910 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:41:24,929 DEBUG   SenderThread:86609 [sender.py:send():176] send: telemetry
+2021-05-18 09:41:24,929 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-18 09:41:24,929 DEBUG   SenderThread:86609 [sender.py:send():176] send: exit
+2021-05-18 09:41:24,929 INFO    SenderThread:86609 [sender.py:send_exit():281] handling exit code: 0
+2021-05-18 09:41:24,929 INFO    SenderThread:86609 [sender.py:send_exit():289] send defer
+2021-05-18 09:41:24,929 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: poll_exit
+2021-05-18 09:41:24,929 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: defer
+2021-05-18 09:41:24,929 INFO    HandlerThread:86609 [handler.py:handle_request_defer():138] handle defer: 0
+2021-05-18 09:41:24,929 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: defer
+2021-05-18 09:41:24,930 INFO    SenderThread:86609 [sender.py:send_request_defer():298] handle sender defer: 0
+2021-05-18 09:41:24,930 INFO    SenderThread:86609 [sender.py:send_request_defer():336] send defer: 1
+2021-05-18 09:41:24,930 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: defer
+2021-05-18 09:41:24,930 INFO    HandlerThread:86609 [handler.py:handle_request_defer():138] handle defer: 1
+2021-05-18 09:41:25,009 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: defer
+2021-05-18 09:41:25,010 INFO    SenderThread:86609 [sender.py:send_request_defer():298] handle sender defer: 1
+2021-05-18 09:41:25,010 INFO    SenderThread:86609 [sender.py:send_request_defer():336] send defer: 2
+2021-05-18 09:41:25,010 DEBUG   SenderThread:86609 [sender.py:send():176] send: stats
+2021-05-18 09:41:25,010 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: defer
+2021-05-18 09:41:25,010 INFO    HandlerThread:86609 [handler.py:handle_request_defer():138] handle defer: 2
+2021-05-18 09:41:25,010 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: defer
+2021-05-18 09:41:25,010 INFO    SenderThread:86609 [sender.py:send_request_defer():298] handle sender defer: 2
+2021-05-18 09:41:25,011 INFO    SenderThread:86609 [sender.py:send_request_defer():336] send defer: 3
+2021-05-18 09:41:25,011 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: defer
+2021-05-18 09:41:25,011 INFO    HandlerThread:86609 [handler.py:handle_request_defer():138] handle defer: 3
+2021-05-18 09:41:25,011 DEBUG   SenderThread:86609 [sender.py:send():176] send: summary
+2021-05-18 09:41:25,011 INFO    SenderThread:86609 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-18 09:41:25,012 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: defer
+2021-05-18 09:41:25,012 INFO    SenderThread:86609 [sender.py:send_request_defer():298] handle sender defer: 3
+2021-05-18 09:41:25,012 INFO    SenderThread:86609 [sender.py:send_request_defer():336] send defer: 4
+2021-05-18 09:41:25,012 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: defer
+2021-05-18 09:41:25,012 INFO    HandlerThread:86609 [handler.py:handle_request_defer():138] handle defer: 4
+2021-05-18 09:41:25,012 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: defer
+2021-05-18 09:41:25,012 INFO    SenderThread:86609 [sender.py:send_request_defer():298] handle sender defer: 4
+2021-05-18 09:41:25,033 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-18 09:41:25,250 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/output.log
+2021-05-18 09:41:25,250 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:41:25,806 INFO    SenderThread:86609 [sender.py:send_request_defer():336] send defer: 5
+2021-05-18 09:41:25,806 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: poll_exit
+2021-05-18 09:41:25,806 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: defer
+2021-05-18 09:41:25,807 INFO    HandlerThread:86609 [handler.py:handle_request_defer():138] handle defer: 5
+2021-05-18 09:41:25,807 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: defer
+2021-05-18 09:41:25,807 INFO    SenderThread:86609 [sender.py:send_request_defer():298] handle sender defer: 5
+2021-05-18 09:41:25,807 INFO    SenderThread:86609 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-05-18 09:41:25,908 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-18 09:41:26,250 INFO    Thread-8  :86609 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/config.yaml
+2021-05-18 09:41:26,251 INFO    SenderThread:86609 [dir_watcher.py:finish():312] scan: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files
+2021-05-18 09:41:26,251 INFO    SenderThread:86609 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/requirements.txt requirements.txt
+2021-05-18 09:41:26,251 INFO    SenderThread:86609 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json wandb-summary.json
+2021-05-18 09:41:26,252 INFO    SenderThread:86609 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/config.yaml config.yaml
+2021-05-18 09:41:26,252 INFO    SenderThread:86609 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/conda-environment.yaml conda-environment.yaml
+2021-05-18 09:41:26,262 INFO    SenderThread:86609 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-metadata.json wandb-metadata.json
+2021-05-18 09:41:26,262 INFO    SenderThread:86609 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/output.log output.log
+2021-05-18 09:41:26,265 INFO    SenderThread:86609 [sender.py:send_request_defer():336] send defer: 6
+2021-05-18 09:41:26,265 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: poll_exit
+2021-05-18 09:41:26,268 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: defer
+2021-05-18 09:41:26,268 INFO    HandlerThread:86609 [handler.py:handle_request_defer():138] handle defer: 6
+2021-05-18 09:41:26,269 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: defer
+2021-05-18 09:41:26,269 INFO    SenderThread:86609 [sender.py:send_request_defer():298] handle sender defer: 6
+2021-05-18 09:41:26,269 INFO    SenderThread:86609 [file_pusher.py:finish():176] shutting down file pusher
+2021-05-18 09:41:26,269 INFO    SenderThread:86609 [sender.py:send_request_defer():336] send defer: 7
+2021-05-18 09:41:26,269 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: defer
+2021-05-18 09:41:26,269 INFO    HandlerThread:86609 [handler.py:handle_request_defer():138] handle defer: 7
+2021-05-18 09:41:26,269 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: defer
+2021-05-18 09:41:26,269 INFO    SenderThread:86609 [sender.py:send_request_defer():298] handle sender defer: 7
+2021-05-18 09:41:26,367 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-18 09:41:27,023 INFO    SenderThread:86609 [sender.py:send_request_defer():336] send defer: 8
+2021-05-18 09:41:27,024 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: poll_exit
+2021-05-18 09:41:27,024 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: defer
+2021-05-18 09:41:27,024 INFO    HandlerThread:86609 [handler.py:handle_request_defer():138] handle defer: 8
+2021-05-18 09:41:27,024 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: defer
+2021-05-18 09:41:27,024 INFO    SenderThread:86609 [sender.py:send_request_defer():298] handle sender defer: 8
+2021-05-18 09:41:27,024 INFO    SenderThread:86609 [sender.py:send_request_defer():336] send defer: 9
+2021-05-18 09:41:27,025 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: defer
+2021-05-18 09:41:27,025 DEBUG   SenderThread:86609 [sender.py:send():176] send: final
+2021-05-18 09:41:27,025 INFO    HandlerThread:86609 [handler.py:handle_request_defer():138] handle defer: 9
+2021-05-18 09:41:27,025 DEBUG   SenderThread:86609 [sender.py:send():176] send: footer
+2021-05-18 09:41:27,025 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: defer
+2021-05-18 09:41:27,025 INFO    SenderThread:86609 [sender.py:send_request_defer():298] handle sender defer: 9
+2021-05-18 09:41:27,125 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-18 09:41:27,125 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: poll_exit
+2021-05-18 09:41:27,226 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-18 09:41:27,226 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: poll_exit
+2021-05-18 09:41:27,327 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-18 09:41:27,327 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: poll_exit
+2021-05-18 09:41:27,428 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-18 09:41:27,429 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: poll_exit
+2021-05-18 09:41:27,531 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-18 09:41:27,531 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: poll_exit
+2021-05-18 09:41:27,632 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-18 09:41:27,632 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: poll_exit
+2021-05-18 09:41:27,734 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-18 09:41:27,734 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: poll_exit
+2021-05-18 09:41:27,824 INFO    Thread-16 :86609 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/output.log
+2021-05-18 09:41:27,830 INFO    Thread-12 :86609 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/requirements.txt
+2021-05-18 09:41:27,836 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-18 09:41:27,836 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: poll_exit
+2021-05-18 09:41:27,859 INFO    Thread-13 :86609 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/wandb-summary.json
+2021-05-18 09:41:27,938 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-18 09:41:27,938 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: poll_exit
+2021-05-18 09:41:27,939 INFO    Thread-15 :86609 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/conda-environment.yaml
+2021-05-18 09:41:28,039 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-18 09:41:28,039 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: poll_exit
+2021-05-18 09:41:28,113 INFO    Thread-14 :86609 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/files/config.yaml
+2021-05-18 09:41:28,141 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-18 09:41:28,141 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: poll_exit
+2021-05-18 09:41:28,242 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-18 09:41:28,242 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: poll_exit
+2021-05-18 09:41:28,343 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-18 09:41:28,344 DEBUG   SenderThread:86609 [sender.py:send_request():186] send_request: poll_exit
+2021-05-18 09:41:28,344 INFO    SenderThread:86609 [file_pusher.py:join():181] waiting for file pusher
+2021-05-18 09:41:28,345 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: get_summary
+2021-05-18 09:41:28,347 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: sampled_history
+2021-05-18 09:41:28,349 DEBUG   HandlerThread:86609 [handler.py:handle_request():121] handle_request: shutdown
+2021-05-18 09:41:28,349 INFO    HandlerThread:86609 [handler.py:finish():632] shutting down handler
+2021-05-18 09:41:29,025 INFO    WriterThread:86609 [datastore.py:close():258] close: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_093359-hwlr2mf9/run-hwlr2mf9.wandb
+2021-05-18 09:41:29,344 INFO    SenderThread:86609 [sender.py:finish():925] shutting down sender
+2021-05-18 09:41:29,344 INFO    SenderThread:86609 [file_pusher.py:finish():176] shutting down file pusher
+2021-05-18 09:41:29,344 INFO    SenderThread:86609 [file_pusher.py:join():181] waiting for file pusher
+2021-05-18 09:41:29,345 INFO    MainThread:86609 [internal.py:handle_exit():78] Internal process exited

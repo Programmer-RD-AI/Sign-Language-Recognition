@@ -1,0 +1,10 @@
+2021-05-18 09:05:21,495 INFO    MainThread:68453 [internal.py:wandb_internal():91] W&B internal server running at pid: 68453, started at: 2021-05-18 09:05:21.495403
+2021-05-18 09:05:21,497 DEBUG   HandlerThread:68453 [handler.py:handle_request():121] handle_request: check_version
+2021-05-18 09:05:21,497 INFO    WriterThread:68453 [datastore.py:open_for_write():77] open: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_090520-it630znc/run-it630znc.wandb
+2021-05-18 09:05:21,499 DEBUG   SenderThread:68453 [sender.py:send():176] send: header
+2021-05-18 09:05:21,499 DEBUG   SenderThread:68453 [sender.py:send_request():186] send_request: check_version
+2021-05-18 09:05:26,500 DEBUG   SenderThread:68453 [sender.py:send():176] send: run
+2021-05-18 09:05:26,503 DEBUG   SenderThread:68453 [git.py:repo():33] git repository is invalid
+2021-05-18 09:05:56,008 DEBUG   HandlerThread:68453 [handler.py:handle_request():121] handle_request: shutdown
+2021-05-18 09:05:56,008 INFO    HandlerThread:68453 [handler.py:finish():632] shutting down handler
+2021-05-18 09:05:56,012 INFO    WriterThread:68453 [datastore.py:close():258] close: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/American-Sign-Language-Recognition/wandb/run-20210518_090520-it630znc/run-it630znc.wandb
